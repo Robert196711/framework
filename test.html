@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Framework Test Page</title>
+  <link rel="stylesheet" href="css/framework.css">
+</head>
+<body>
+  <div class="grid">
+    <div class="row">
+      <div class="col-2">2 Columns</div>
+      <div class="col-10">10 Columns</div>
+    </div>
+	<div class="row">
+      <div class="col-3">3 Columns</div>
+      <div class="col-9">9 Columns</div>
+    </div>
+    <div class="row">
+      <div class="col-3">3 Columns</div>
+      <div class="col-9 row-nested">
+		<div class="col-6">6/9 Columns nested</div>
+		<div class="col-6">6/9 Columns nested</div>
+	  </div>
+    </div>
+    <div class="row">
+      <div class="col-4">4 Columns</div>
+      <div class="col-4">4 Columns</div>
+      <div class="col-4">4 Columns</div>
+    </div>
+    <div class="row">
+		<div class="col-3">
+			<video class="img-responsive" controls>
+				<source src="./Clips/Mikes_Motors.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+		</div>
+      <div class="col-6">5 Columns</div>
+	  <!-- <div class="col-3">3 Columns</div> -->
+      <div class="col-3 img-responsive"><img src="./images/LondonBridge.jpg" alt="London Bridge photo" class="img-responsive"></div>
+    </div>
+  </div>
+</body>
+</html>
